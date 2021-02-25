@@ -19,7 +19,7 @@ var firebaseConfig = {
    //End code
    });});}
 getData();
-user_name = localStorage.getItem("user_name");
+user_name = localStorage.getItem("username");
 document.getElementById("user_name").innerHTML = "welcome " + user_name + "!";
 
 function addRoom(){
